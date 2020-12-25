@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id = "calculator">
-        <textarea id = "Equation">0</textarea></br>
+        <textarea id = "Equation" readonly></textarea></br>
         <input id="button" type="button" value="C" onclick="txt_0();">
         <input id="button" type="button" value="+" onclick="add_txt('+');">
         <input id="button" type="button" value="-" onclick="add_txt('-');">
@@ -27,7 +27,7 @@
         <input id="button" type="button" value="7" onclick="add_txt('7');">
         <input id="button" type="button" value="8" onclick="add_txt('8');">
         <input id="button" type="button" value="9" onclick="add_txt('9');"></br>
-        <input id="button-del" type="button" value="<-" onclick="remove_txt();">
+        <input id="button-del" type="button" value="⌫" onclick="remove_txt();">
         <input id="button-go" type="button" value="=" onclick="reload();">
     </div>
     <script type="text/javascript" src="src/js/javascript.js"></script>

@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
 #calculator{
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 200px;
   border: solid 1px black;
   border-radius: 0.5em;
   padding: 10px;
   background-color: #879096;
+  box-shadow: -2px 2px #aeb4b5, -1.5px 1.5px #aeb4b5, -1px 1px #aeb4b5;
+  border: 1px solid #aeb4b5;
 }
 
 #Equation{
   border-radius: 0.1em;
   color: white;
-  font-family: 'Roboto Slab', serif;
-  font-size: 30px;
+  font-size: 15px;
   resize: none;
   width: calc(100% - 3px);
   height: 50px;
@@ -24,14 +23,24 @@
   width: calc(20% - 3px);
   height : calc(25% - 25px);
   margin-bottom: 10px;
-}
-
-#button-go{
-  width: calc(50% - 3px);
-  height: calc(25% - 25px);
+  background-color: #d7dfe0; /*#aeb4b5*/
+  box-shadow: -2px 2px #aeb4b5, -1.5px 1.5px #aeb4b5, -1px 1px #aeb4b5;
+  border: 1px solid #aeb4b5;
 }
 
 #button-del{
   width: calc(50% - 3px);
   height: calc(25% - 25px);
+  background-color: skyblue;
+  box-shadow: -2px 2px #27b3cc, -1.5px 1.5px #27b3cc, -1px 1px #27b3cc;
+  border: 1px solid #27b3cc;
+}
+
+#button-go{
+  margin-left: 1%;
+  width: calc(49% - 3px);
+  height: calc(25% - 25px);
+  background-color: #fcbd00;
+  box-shadow: -2px 2px orange, -1.5px 1.5px orange, -1px 1px orange;
+  border: 1px solid orange;
 }
